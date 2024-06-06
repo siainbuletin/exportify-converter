@@ -1,0 +1,11 @@
+{
+  "library": {
+    "file_glob": "*.mp3"
+  },
+  "input": {
+    "spotify_id_header": "\ufeffSpotify ID"
+  },
+  "output": {
+    "suffix": ".m3u"
+  }
+}

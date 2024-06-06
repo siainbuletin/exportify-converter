@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "exportify-converter"
+version = "1.0.0"
+description = "Convert Exportify CSV Playlists to M3U Playlists"
+authors = ["Pierre-Olivier Trottier <po.trottier@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+eyed3 = "^0.9.7"
+tqdm = "^4.66.4"
+jsonpickle = "^3.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
