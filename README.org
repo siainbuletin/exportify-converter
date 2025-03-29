@@ -1,0 +1,8 @@
+* Playlist management tool
+
+This is originally forked from ~po-trottier/exportify-converter~, which relies on on [Onthespot](https://github.com/casualsnek/onthespot) metadata to create M3U playlist files from [Exportify](https://github.com/watsonbox/exportify) CSV files.
+
+The converer originally reads through your music library and looks for the Spotify ID in the MP3 ID3 tags. It will then match the Spotify ID found in your CSV file to a local MP3 file found on your local disk.
+
+
+TODO: add literate documentation on the parts of code.

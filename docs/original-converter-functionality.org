@@ -1,0 +1,22 @@
+* Internal functioning of Python converter
+
+** Installation
+- Clone the repository
+- Restore the dependencies using `poetry install`
+
+** Dependencies
+- Git
+- Python 3.10
+- https://python-poetry.org/
+
+** Usage
+
+- see the docs / typst source to understand the inner functionality
+TODO: add literate documentation on the parts of code.
+
+- Run the `converter.py` script using poetry:
+  ```py
+  poetry run python .\exportify_converter\converter.py -h
+  ```
+
+- Modify the converter's settings by editing the [`settings.json`](./exportify_converter/settings.json) file.

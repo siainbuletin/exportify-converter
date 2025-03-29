@@ -1,0 +1,15 @@
+* What I want from the project
+
+Ideally, the playlists would also have a playlist cover at some point. This means that the only format for playlist that I can use as a catch-all is XSPF. At the same time, I could just try to fork ~beets-yapl~ and change the format used from YAML to XSPF. Though I anticipate that there will be issues with the usability of this format.
+
+The project should help you view the most important information from a playlist, which is the AcoustID and the path of the songs, as well as the order.
+
+Perhaps this could also render within Emacs with something like ~emms~. This should be investigated.
+
+Scope: create a reliable Spotify (and other sources converter) to input playlists to a centralised repository. (Ideal: load everything into beets, using a framework like `beets-yapl`).
+
+* To Do
+- need to figure out path handling for the songs
+  - could be done relative to a NAS unit
+- change the music ID to something like AcoustID
+
