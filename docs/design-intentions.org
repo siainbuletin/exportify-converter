@@ -1,0 +1,5 @@
+* What I want from the project
+
+Ideally, the playlists would also have a playlist cover at some point. This means that the only format for playlist that I can use as a catch-all is XSPF. At the same time, I could just try to fork ~beets-yapl~ and change the format used from YAML to XSPF. Though I anticipate that there will be issues with the usability of this format.
+
+
