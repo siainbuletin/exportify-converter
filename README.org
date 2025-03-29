@@ -4,5 +4,6 @@ This is originally forked from ~po-trottier/exportify-converter~, which relies o
 
 The converer originally reads through your music library and looks for the Spotify ID in the MP3 ID3 tags. It will then match the Spotify ID found in your CSV file to a local MP3 file found on your local disk.
 
+See the docs folder for usage notes.
 
 TODO: add literate documentation on the parts of code.

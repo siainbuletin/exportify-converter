@@ -10,13 +10,10 @@
 - https://python-poetry.org/
 
 ** Usage
+- Run the ~converter.py~ script using poetry:
 
-- see the docs / typst source to understand the inner functionality
-TODO: add literate documentation on the parts of code.
-
-- Run the `converter.py` script using poetry:
-  ```py
-  poetry run python .\exportify_converter\converter.py -h
-  ```
+#+begin_src python
+poetry run python .\exportify_converter\converter.py -h
+#+end_src
 
 - Modify the converter's settings by editing the [`settings.json`](./exportify_converter/settings.json) file.
