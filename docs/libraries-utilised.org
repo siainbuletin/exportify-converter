@@ -1,7 +1,14 @@
 * Python libraries for exportify converter
 
+** re
+- for passing regular expressions
+- https://docs.python.org/3/library/re.html
+
 ** eyed3
 - used for parsing metadata particularly within MP3 files.
 - this library can also be used to write data to a file.[fn:1]
+- supports several plugins
+  - for generating ~nfo~ files for albums that are scanned
+    - (_how is this different from the formatting done by beets?_)
 
 [fn:1] https://eyed3.readthedocs.io/en/latest/

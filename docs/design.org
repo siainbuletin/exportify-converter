@@ -8,8 +8,13 @@ Perhaps this could also render within Emacs with something like ~emms~. This sho
 
 Scope: create a reliable Spotify (and other sources converter) to input playlists to a centralised repository. (Ideal: load everything into beets, using a framework like `beets-yapl`).
 
+A good idea would be to compare the functionality of redlist with exportify-converter.
+- redlist already uses
+
+
 * To Do
 - need to figure out path handling for the songs
   - could be done relative to a NAS unit
 - change the music ID to something like AcoustID
-
+- explore whether XSPF can be converted to from YAML
+  - look into the design documentation of XSPF
